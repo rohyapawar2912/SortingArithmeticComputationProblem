@@ -2,13 +2,12 @@ echo "Welcome to Sorting Arithmetic Computation Problem"
 
 #!/bin/bash
 
-echo "Enter value for a:"
-read a
+a=5
+b=6
+c=3
 
-echo "Enter value for b:"
-read b
+result=$((a + b * c))
 
-echo "Enter value for c:"
-read c
+echo "The result is: $result"
 
-echo "a = $a, b = $b, c = $c"
+
